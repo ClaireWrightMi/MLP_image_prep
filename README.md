@@ -6,8 +6,9 @@ __Python script for perparing MLP images for use in the field__
 
 ## Requirements (QGIS 3.28.1) 
 
-- [numpy](https://numpy.org/) >=1.18.5
-- 
+- [numpy](https://numpy.org/) >=1.26.4
+- [pillow](https://pypi.org/project/pillow/) >=10.3.0
+- [tkinter](https://docs.python.org/3/library/tkinter.html#module-tkinter) >= 0.1.0
 
 ## Intructions for Running
 
