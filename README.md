@@ -4,7 +4,7 @@ __Python script for preparing MLP images for use in the field__
 [![Python 3.9](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![GNU License](https://img.shields.io/badge/License-GNU-green.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-## Requirements (QGIS 3.28.1) 
+## Requirements
 
 - [numpy](https://numpy.org/) >=1.26.4
 - [pillow](https://pypi.org/project/pillow/) >=10.3.0
