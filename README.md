@@ -134,7 +134,8 @@ Your command prompt should now have MLP_image_prep in brackets before the cursor
 	Python3 MLP_image_prep.py
 	```
 
-3. A window will pop up: Navigate to the folder containing your images
-4. After a minute, a second window will pop up: Navigate to the folder where you want to save the completed PDF
+3. Fill in the surveyor name, survey year, and station name when prompted
+4. A window will pop up: Navigate to the folder containing your images
+5. After a minute, a second window will pop up: Navigate to the folder where you want to save the completed PDF
 
 
