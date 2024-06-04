@@ -39,7 +39,7 @@ __Python script for preparing MLP images for use in the field__
 
 ### STEP 4: Activate the Virtual Environment
 1. Open Command Line or Terminal (from start, type Command Line for Windows or Terminal for Mac and open the first result)
-2. Type the following using the name of the folder holding the code
+2. Type the following:
 	
 	Windows:
 	```console
@@ -50,7 +50,7 @@ __Python script for preparing MLP images for use in the field__
 	source MLP_img_prep/bin/activate
 	```
 
-Your command prompt should now have the name of your folder in brackets before the cursor.
+Your command prompt should now have MLP_image_prep in brackets before the cursor.
 
 
 ### STEP 5: Install Dependencies
@@ -108,7 +108,11 @@ Your command prompt should now have the name of your folder in brackets before t
 
 **MAKE SURE YOUR ENVIRONMENT IS ACTIVE BEFORE DOING THIS, IF NOT, RETURN TO STEP 4.**
 
-1. In the command line, navigate to the directory for the code (notice the different slashes on Windows vs Mac)
+1. In the command line, navigate to the directory for the code (notice the different slashes on Windows vs Mac). Replace the words Folder with the correct path to your MLP_image_prep folder.
+
+	* To find the path on Windows, navigate to the MLP_image_prep.py file in File Explorer, right click, choose properties, and check the File location under details
+
+	* To find the path on Mac, navigate to the MLP_image_prep.py file in Finder, right click, choose Get Info, and check Where
 
 	Windows:
 	```console
@@ -118,10 +122,6 @@ Your command prompt should now have the name of your folder in brackets before t
 	```console
 	cd /Folder/Folder/MLP_img_prep
 	```
-
-	* To find the path on Windows, navigate to the file in File Explore, right click, choose properties, and check the File location under details
-
-	* To find the path on Mac, navigate to the file in Finder, right click, choose Get Info, and check Where
 
 2. Run the script
 
