@@ -26,6 +26,7 @@ __Python script for perparing MLP images for use in the field__
 1. Open File Explorer or Finder and navigate to the folder with your code.
 2. Open Command Line or Terminal (from start, type Command Line for Windows or Terminal for Mac and open the first result)
 3. Type the following:
+	
 	Windows:
 	```console
 	py -m venv MLP_img_prep
