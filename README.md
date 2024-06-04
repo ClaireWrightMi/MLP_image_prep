@@ -39,36 +39,100 @@ __Python script for perparing MLP images for use in the field__
 ### STEP 4: Activate the Virtual Environment
 1. Open Command Line or Terminal (from start, type Command Line for Windows or Terminal for Mac and open the first result)
 2. Type the following using the name of the folder holding the code
-Windows:	MLP_img_prep\Scripts\activate
-Mac:	source MLP_img_prep/bin/activate
+	
+	Windows:
+	```console
+	MLP_img_prep\Scripts\activate
+	```
+	Mac:
+	```console
+	source MLP_img_prep/bin/activate
+	```
+
 Your command prompt should now have the name of your folder in brackets before the cursor.
 
 
-## Installation
+### STEP 5: Install Dependencies
+1. Upgrade pip (type the following in command line)
+	
+	Windows:
+	```console
+	py -m pip install --upgrade pip
+	```
+	Mac:
+	```console
+	Python3 -m pip install --upgrade pip
+	```
 
-### Windows Users
-Install the latest version of QGIS through the OSGeo4W installer from [here](https://qgis.org/en/site/forusers/alldownloads.html#osgeo4w-installer). From the OSGeo4W installer, select Express install. Choose QGIS LTR, GDAL, and GRASS GIS from the option menu. 
+2. Install numpy
 
-### MacOS Users
-Install the latest version of QGIS [here](https://qgis.org/en/site/forusers/download.html).
+	Windows:
+	```console
+	py -m pip install numpy
+	```
+	Mac:
+	```console
+	Python3 -m pip install numpy
+	```
 
-### Dependencies
-MIAS relies on some Python packages that do not come installed with QGIS and has conflicts with the existing versions of opencv and numpy. From the Plugins menu on QGIS, open the Python console and type the following commands:
-```python
-import pip
-pip.main(['uninstall','-y','opencv-contrib-python'])
-pip.main(['install','opencv-python'])
-pip.main(['install','--upgrage','numpy'])
-pip.main(['install','torch'])
-pip.main(['install','scikit-image'])
-```
+3. Install pillow
 
-### Installing the Plugin
-From the Code menu (green button) on the [GitHub page](https://github.com/ClaireWrightMi/MLP_IA_Suite), select Download ZIP.  
-From the Plugins menu in QGIS, choose Manage and Install Plugins, then Install from ZIP. Upload the ZIP file that you just downloaded from GitHub.
+	Windows:
+	```console
+	py -m pip install pillow
+	```
+	Mac:
+	```console
+	Python3 -m pip install pillow
+	```
 
-## Usage
-A video tutorial for MIAS is available [here](URL).
-A written tutorial and corresponding test data can be downloaded [here](URL).
+4. Install tkinter
+
+	Windows:
+	```console
+	py -m pip install tkinter
+	```
+	Mac:
+	```console
+	Python3 -m pip install tkinter
+	```
+
+### STEP 6: Set up the image folder
+1. Download all images from Explorer
+2. Edit in Affinity Photo
+3. Store all images from **one station** in a folder, each station should have its own folder
+4. Images should be named to correspond to their name in Explorer (e-copy number is best)
+
+### STEP 7: Run the program
+
+**MAKE SURE YOUR ENVIRONMENT IS ACTIVE BEFORE DOING THIS, IF NOT, RETURN TO STEP 4.**
+
+1. In the command line, navigate to the directory for the code (notice the different slashes on Windows vs Mac)
+
+	Windows:
+	```console
+	cd C:\Folder\Folder\MLP_img_prep
+	```
+	Mac:
+	```console
+	cd /Folder/Folder/MLP_img_prep
+	```
+
+	a. To find the path on Windows, navigate to the file in File Explore, right click, choose properties, and check the File location under details
+	b. To find the path on Mac, navigate to the file in Finder, right click, choose Get Info, and check Where
+
+2. Run the script
+
+	Windows:
+	```console
+	py MLP_image_prep.py
+	```
+	Mac:
+	```console
+	Python3 MLP_image_prep.py
+	```
+
+3. A window will pop up: Navigate to the folder containing your images
+4. After a minute, a second window will pop up: Navigate to the folder where you want to save the completed PDF
 
 
