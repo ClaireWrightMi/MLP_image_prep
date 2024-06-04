@@ -14,11 +14,11 @@ __Python script for preparing MLP images for use in the field__
 
 ### STEP 1 : Download the code
 1. Press the green button that says Code and select download as zip.
-2. Unzip the folder and move to the location of choice (usually better to keep it on the local drive rather than anywhere on the cloud)
-3. Keep the name MLP_img_prep for the folder (and make sure it’s not nested)
+2. Unzip the folder and move to location of choice (usually better to keep it on the local drive rather than anywhere on the cloud)
+3. Keep the name MLP_img_prep for the folder (and make sure it’s not nested from unzipping it)
 
 ### STEP 2: Install Python
-1. Check whether Python is installed (instructions [here] (https://www.datacamp.com/blog/how-to-install-python))
+1. Check whether Python is installed (instructions [here](https://www.datacamp.com/blog/how-to-install-python))
 2. If Python is not installed, install it from the Python website (instructions [here](https://www.datacamp.com/blog/how-to-install-python))
 
 
