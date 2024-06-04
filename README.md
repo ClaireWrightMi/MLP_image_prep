@@ -1,5 +1,5 @@
 # Mountain Legacy Project Image Prep
-__Python script for perparing MLP images for use in the field__ 
+__Python script for preparing MLP images for use in the field__ 
 
 [![Python 3.9](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![GNU License](https://img.shields.io/badge/License-GNU-green.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
