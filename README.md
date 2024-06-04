@@ -119,6 +119,7 @@ Your command prompt should now have the name of your folder in brackets before t
 	```
 
 	a. To find the path on Windows, navigate to the file in File Explore, right click, choose properties, and check the File location under details
+
 	b. To find the path on Mac, navigate to the file in Finder, right click, choose Get Info, and check Where
 
 2. Run the script
