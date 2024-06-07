@@ -91,11 +91,11 @@ Your command prompt should now have MLP_image_prep in brackets before the cursor
 
 	Windows:
 	```console
-	py -m pip install tkinter
+	py -m pip install tk
 	```
 	Mac:
 	```console
-	Python3 -m pip install tkinter
+	Python3 -m pip install tk
 	```
 
 ### STEP 6: Set up the image folder
